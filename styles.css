@@ -137,15 +137,6 @@ header {
     width: 19px;
 }
 
-.show992 {
-    display: none;
-}
-
-@media (min-width: 992px) {
-    .show992 {display: table-cell;
-    }
-}
-
 .show576 {
     display: none;
 }
@@ -164,6 +155,15 @@ header {
 
     .dsmeta-sales-table tbody {
         font-size: 18px;
+    }
+}
+
+.show992 {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .show992 {display: table-cell;
     }
 }
 
